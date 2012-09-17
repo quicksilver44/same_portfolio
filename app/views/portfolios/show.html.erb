@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Description:</b>
+  <%= @portfolio.description %>
+   <%= @portfolio_id %>
+</p>
+<p>
+       <% @portfolio.investments.each do|investment| %>
+
+    <%= investment.company.symbol %>
+    <%= investment.quantity %>
+    <%=  @portfolio.worth.cost %>
+    <% end%>
+       </p>
+<%= link_to 'Edit', edit_portfolio_path(@portfolio) %> |
+<%= link_to 'Back', portfolios_path %>
