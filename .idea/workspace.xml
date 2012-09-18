@@ -77,7 +77,9 @@
         <entry file="file://$PROJECT_DIR$/app/views/portfolios/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="13" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="-8.5">
-              <folding />
+              <folding>
+                <marker date="1347911725235" expanded="true" signature="132:423" placeholder="do ... end" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -694,7 +696,9 @@
     <entry file="file://$PROJECT_DIR$/app/views/portfolios/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="-8.5">
-          <folding />
+          <folding>
+            <marker date="1347911725235" expanded="true" signature="132:423" placeholder="do ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
